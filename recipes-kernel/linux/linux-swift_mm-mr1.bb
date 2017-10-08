@@ -6,9 +6,9 @@ SUMMARY = "Android kernel for the Asus Zenwatch 3"
 HOMEPAGE = "https://android.googlesource.com/"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
-COMPATIBLE_MACHINE = "swift"
+COMPATIBLE_MACHINE = "sturgeon"
 
-SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-swift-3.18-marshmallow-mr1-wear-release;protocol=https \
+SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-sturgeon-3.18-marshmallow-mr1-wear-release;protocol=https \
     file://defconfig \
     file://img_info"
 SRCREV = "2f958570bcf7457da4827dc8da5ff3195d447cb3"
